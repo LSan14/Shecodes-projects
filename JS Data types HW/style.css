@@ -1,0 +1,55 @@
+.topLayer {
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 101, 106);
+  background-color: blanchedalmond;
+  display: block;
+  padding: 30px;
+  margin: 50px 450px;
+  font-family: "Caveat", cursive;
+}
+i {
+  font-size: 50px;
+  padding: 10px;
+}
+.heading {
+  font-size: 25px;
+  display: block;
+  padding-top: 10px;
+}
+.date {
+  display: block;
+  font-size: 20px;
+}
+
+.outside {
+  display: block;
+}
+
+.feelLike {
+  display: block;
+  padding: 10px;
+}
+
+.weather {
+  display: block;
+}
+.input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.searchbox button {
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: rgb(0, 18, 99);
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.searchbox button:hover {
+  background: blue;
+}
