@@ -1,0 +1,74 @@
+.topLayer {
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 101, 106);
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  display: block;
+  padding: 5px;
+  margin: auto 100px;
+  font-family: "Caveat", cursive;
+}
+.link {
+  text-align: center;
+  display: block;
+}
+.day .calenderDay {
+  font-size: 15px;
+}
+
+.fahrenheit {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.cityName {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.dateTime {
+  font-size: 20px;
+}
+
+.outsideFeel .realFeel {
+  padding: 10px;
+}
+
+.temperature {
+  margin: 0px auto;
+  font-size: 50px;
+  font-weight: bold;
+}
+.input[type="search"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.searchButton {
+  padding: 3px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background: pink;
+  font-size: 15px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.searchButton:hover {
+  background: lightblue;
+}
+
+.currentButton {
+  padding: 3px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background: lightblue;
+  font-size: 15px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.currentButton:hover {
+  background: pink;
+}

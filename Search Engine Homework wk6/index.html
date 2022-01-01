@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="topLayer">
+      <form id="search-city">
+        <input
+          class="searchBar"
+          type="search"
+          placeholder="Search for a city"
+          autocomplete="off"
+          autofocus="on"
+          id="searchB"
+        />
+
+        <button class="searchButton" type="submit" id="searchB">Search</button>
+
+        <button class="currentButton" type="submit" id="currentB">
+          Current
+        </button>
+      </form>
+      <div class="cityName" id="cityN">Richland</div>
+      <div class="dateTime" id="dateT">12:00</div>
+      <br />
+      <div class="temperature" id="temperatureNumber">25° C</div>
+      <br />
+      <span id="current-weather"> Cloudy <i class="fas fa-cloud"></i> </span>
+      <br />
+      <div class="aas">
+        <a href="#" class="fahrenheit" id="fahrenheitN"> F </a>
+      </div>
+
+      <div class="realFeel" id="realF">Feels like: 4°C</div>
+      <div class="humidityPercent" id="humidityP">Humidity: 67%</div>
+      <div class="windspeedForm" id="windspeedF">
+        Wind: 8 km/h
+        <br />
+      </div>
+      <div class="day" id="selector-day"></div>
+      <div class="calendarDay" id="calendar-day"></div>
+    </div>
+    <div class="link">
+      <a href="https://nervous-hopper-5788e2.netlify.app/" class="links">
+        Open-source code
+      </a>
+      , by Lizeth
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
